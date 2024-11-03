@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+img {
+    width: 100px;
+    height: 200px;
+}
+
+caption {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: lightpink;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
